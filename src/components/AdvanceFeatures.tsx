@@ -123,7 +123,7 @@ const features = [
 
 export function AdvancedFeaturesSection() {
   return (
-    <section id="advanced-features" className="w-full py-12 md:py-24 lg:py-32 bg-[#e4e5f1] dark:bg-muted/20">
+    <section id="advanced-features" className="w-full py-12 md:py-24 lg:py-32 from-orange-500/5 via-amber-500/5 to-yellow-500/5">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <div className="space-y-2">

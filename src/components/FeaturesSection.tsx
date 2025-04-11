@@ -67,7 +67,7 @@ export function FeaturesSection() {
             <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Features</div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Safe. Efficient. Modern.</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Firefly OS combines Rust's safety guarantees with bare-metal performance for a new generation of operating
+              Firefly OS combines Rust&apos;s safety guarantees with bare-metal performance for a new generation of operating
               systems.
             </p>
           </div>

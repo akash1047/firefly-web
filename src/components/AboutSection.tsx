@@ -16,7 +16,7 @@ export function AboutSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <div className="inline-block rounded-lg bg-[#d2d3db] dark:bg-muted px-3 py-1 text-sm">About Firefly OS</div>
+            <div className="inline-block rounded-lg  dark:bg-muted px-3 py-1 text-sm">About Firefly OS</div>
             <h2 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl bg-gradient-to-r from-orange-500 via-amber-500 to-yellow-500 bg-clip-text text-transparent">
               Built from scratch in Rust
             </h2>

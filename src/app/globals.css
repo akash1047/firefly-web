@@ -112,7 +112,7 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
-layer components {
+@layer components {
   .custom-card {
     background-color:	#e4e5f1;
   }
@@ -142,6 +142,21 @@ layer components {
   body {
     @apply bg-background text-foreground;
   }
+  body {
+    background-color: #fafafa;
+  }
+
+  .dark body {
+    background-color: hsl(var(--background));
+  }
+
+  section:nth-child(even) {
+    background-color: #e4e5f1;
+  }
+
+  .dark section:nth-child(even) {
+    background: linear-gradient(to right, rgba(236, 72, 153, 0.1), rgba(168, 85, 247, 0.1), rgba(99, 102, 241, 0.1));
+  }
 }
 
 @keyframes spotlight {
@@ -163,4 +178,8 @@ layer components {
     }
   }
 }
+.animate-scroll {
+  animation: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
+}
+
 

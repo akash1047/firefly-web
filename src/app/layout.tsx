@@ -1,13 +1,20 @@
 import type React from "react"
 import "@/app/globals.css"
 import { Inter } from "next/font/google"
-import { ThemeProvider } from "@/components/themeProvider"
+import ThemeProvider from "@/components/themeProvider"
 
-const inter = Inter({ subsets: ["latin"] })
+// Configure Inter font with more robust options
+const inter = Inter({ 
+  subsets: ["latin"],
+  display: "swap",
+  fallback: ["system-ui", "Arial", "sans-serif"],
+  preload: true,
+  variable: "--font-inter",
+})
 
 export const metadata = {
-  title: "Firefly OS - Minimal & Secure",
-  description: "Firefly is a minimal operating system built from scratch in Rust, focusing on safety, efficiency, and modern system programming. It features a custom kernel, memory-safe architecture, and direct hardware control without relying on existing OS frameworks.",
+  title: "FireflyOS - The Future of Computing",
+  description: "A beautiful, fast, and secure operating system designed for modern computing needs.",
 }
 
 export default function RootLayout({

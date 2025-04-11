@@ -79,7 +79,7 @@ export function HeroSection() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-pink-500/10 via-purple-500/10 to-indigo-500/10 rounded-xl z-10"></div>
+            <div className="absolute inset-0 bg-gradient-to-r "></div>
             <Image
               src="/ss.png"
               width={550}
